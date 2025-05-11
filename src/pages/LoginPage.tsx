@@ -16,7 +16,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="login-container">
       <h2>Iniciar Sesión</h2>
       <form onSubmit={handleSubmit} className="w-50 mx-auto">
         <div className="mb-3">
@@ -50,6 +50,11 @@ export default function LoginPage() {
         </div>
         <button type="submit" className="btn btn-primary">Ingresar</button>
       </form>
+
+      {/* Botón para regresar a la página principal */}
+      <button id="home-button" className="btn btn-secondary mt-3">
+        Regresar al inicio
+      </button>
     </div>
   );
 }

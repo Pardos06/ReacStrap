@@ -11,10 +11,5 @@ export default function Home() {
     else if (user?.rol === 'Cliente') navigate('/cliente');
   }, [user, navigate]);
 
-  return (
-    <div className="container mt-5">
-      <h1>Bienvenido a Technology Fix</h1>
-      <p>Por favor inicia sesión para continuar.</p>
-    </div>
-  );
+  return  navigate('/');
 }
