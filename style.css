@@ -48,7 +48,7 @@ body {
   --bs-primary-bg-subtle: #FFF9EB;
   --bs-success-bg-subtle: #eef5e5;
   
-  --bs-border-color: #D0D0D0;
+  --bs-border-color: 	#c0c0c0;
 
   --swiper-theme-color: var(--bs-primary);
 }
